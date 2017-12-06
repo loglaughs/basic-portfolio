@@ -1,1 +1,40 @@
-
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+.pagination {
+  display: inline-block;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: transform 1s;
+  border: 1px solid black;
+}
+.pagination a.active {
+  background: blue;
+  color: white;
+}
+.pagination a:hover {
+  transform: scale(1.01);
+}
+.pagination a:active {
+  transform: translateY(5px);
+}
+l {
+  display: block;
+  height: 1px;
+  border-top: 1px solid black;
+  margin: 1em 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+}
+.site-information {
+  font-size: 26px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
